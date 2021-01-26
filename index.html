@@ -10,10 +10,10 @@
 <body>
     <div class="navigation">
         <nav>
-            <ul>
-                <li><a href="#about_section">About.</a></li>
-                <li><a href="#experience_section">Experience.</a></li>
-                <li><a href="#work_section">Work.</a></li>
+            <ul class="nav_list">
+                <li class="nav_list_item"><a href="#about_section">About.</a></li>
+                <li class="nav_list_item"><a href="#experience_section">Experience.</a></li>
+                <li class="nav_list_item"><a href="#work_section">Work.</a></li>
             </ul>
             <div class="social_media_logos">
                 <a href="https://www.linkedin.com/in/jarod-joy-villapando-4ab02519b/" target="_blank">
@@ -22,24 +22,24 @@
                 <a href="">
                     <img id="instagram_logo" src="images/icons/instagram.png">
                 </a>
-                <a href="https://github.com/JarodJoyVillapando" target="_blank">
+                <a href="https://github.com/JarodJoyVillapando?tab=repositories" target="_blank">
                     <img id="github_logo" src="images/icons/github.png">
                 </a>
             </div>
         </nav>
     </div>
-    <div class="heading_logo">Joy.</div>
+    <div class="heading_logo"><a href="#about_section">Joy.</a></div>
     <div id="about_section">
         <div class="headshot_container">
             <img src="images/pictures/50588187066_f6036f6fdf_w.jpg">
         </div>
         <div class="section_details">
             <div class="section_details_text">
-                <p class="section_header">Jarod-Joy Villapando</p>
+                <p class="section_header">Jarod-Joy Villapando.</p>
                 <p class="section_subheader">front-end web developer.</p>
                 <p class="section_paragraph">
                     Hello, My name is Jarod-Joy Villapando. Motorsport enthusiast, dancer and <br>
-                    culture fanatic. Most times,I am attending Dominican University majoring in <br>
+                    culture fanatic. Most times, I am attending Dominican University majoring in <br>
                     Computer Science with a focus on Software Development and working as a <br>
                     front-end web developer for Chicago Culinary FX.<br>
                 </p>
@@ -59,7 +59,89 @@
     </div>
     <div id="experience_section">
         <div class="screenshot_container">
-            <img src=""
+            <a href="https://www.ccfx.us" target="_blank">
+                <img id="ccfx_screenshot" src="images/pictures/ccfx.png">
+            </a>
+            <a href="https://dominicanart227.wordpress.com" target="_blank">
+                <img id="webdesign_screenshot" src="images/pictures/webdesign.png">
+            </a>
+        </div>
+        <div class="section_deatils_text_experience">
+            <div class="job_details">
+                <p class="section_heading">Experience.</p>
+                <p class="section_subheading"><span class="section_company_name">Chicago Culinary FX. </span>Rochester, Il</p>
+                <p class="section_position">Front-end Web Developer</p>
+                <p class="job_timeline">December 2020 - Present</p>
+            </div>
+            <div class="job_details" id="dominican_section">
+                <p class="section_subheading"><span class="section_company_name">Dominican University. </span>River Forest, Il</p>
+                <p class="section_position">Teacher Assistant</p>
+                <p class="job_timeline">August 2020 - December 2020</p>
+            </div>
+        </div>
+    </div>
+    <div id="work_section">
+        <div id="work_section_heading">Recent Work.</div>
+        <div class="work_screenshot_container">
+            <a href="https://thc.ccfx.us/custom-mold-quote">
+                <img id="ccfx_mold_form" src="images/pictures/ccfxForm.JPG">
+            </a>
+            <div class="recent_work_section_description">
+                <p class="recent_work_description"><span class="recent_work_title">Custom Molds Quote. </span>Chicago Culinary FX.</p>
+                <p class="recent_work_details">My role at CCFX requires me to update, maintain and refactor exisiting websites. As a team, we 
+                    are currently focused on using Retool to build applications that improves efficiency, utility and productivity.
+                </p>
+                <p class="recent_work_techonologies_header">Technologies.</p>
+                <ul class="recent_work_technologies">
+                    <li class="recent_work_item_col_one">Retool</li>
+                    <li class="recent_work_item_col_one">AWS</li>
+                    <li class="recent_work_item_col_two">Pipedrive</li>
+                    <li class="recent_work_item_col_two">AppDrag</li>
+                    <li class="recent_work_item_col_three">Microsoft Azure</li>
+                </ul>
+            </div>
+        </div>
+        <div class="work_screenshot_container">
+            <a href="https://github.com/JarodJoyVillapando/costume_inventory" target="_blank">
+                <img id="costume_inventory_img" src="images/pictures/costumeInventory2.JPG">
+            </a>
+            <div class="recent_work_section_description">
+                <p class="recent_work_description"><span class="recent_work_title">Costume Inventory System. </span>Senior Capstone Project.</p>
+                <p class="recent_work_details">My team aimed to replace the Dominican University's Theater department inventory system by providing
+                    a web application that allows the admin/inventory manager to track, add, update and remove costume pieces. 
+                </p>
+                <p class="recent_work_techonologies_header">Technologies.</p>
+                <ul class="recent_work_technologies">
+                    <li class="recent_work_item_col_one">Webpack</li>
+                    <li class="recent_work_item_col_one">jQuery Validation Plugin</li>
+                    <li class="recent_work_item_col_two">ASP.Net Core MVC</li>
+                    <li class="recent_work_item_col_two">xUnit.net</li>
+                    <li class="recent_work_item_col_three">Google reCAPTCHA</li>
+                    <li class="recent_work_item_col_three">Microsoft Azure DevOps</li>
+                </ul>
+            </div>
+        </div>
+        <div class=work_screenshot_container>
+            <a href="http://stjuliana.org" target="_blank">
+                <img id="st_juliana" src="images/pictures/stJulianaParish2.JPG">
+            </a>
+            <div class="recent_work_section_description">
+                <p class="recent_work_description"><span class="recent_work_title">St. Juliana Parish. </span>Community Based Learning.</p>
+                <p class="recent_work_details">My role for this project was to maintain, refactor, and update the site's media player and it's
+                    Homily podcast content.
+                </p>
+                <p class="recent_work_techonologies_header">Technologies.</p>
+                <ul class="recent_work_technologies">
+                    <li class="recent_work_item_col_one">CSS</li>
+                    <li class="recent_work_item_col_one">HTML</li>
+                    <li class="recent_work_item_col_two">JavaScript</li>
+                    <li class="recent_work_item_col_two">Bootstrap</li>
+                    <li class="recent_work_item_col_three">Adobe Dreamweaver</li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer_section">
+            <p id="footer_text">&copy; 2021 Designed by Jarod-Joy Villapando</p>
         </div>
     </div>
 </body>
