@@ -45,6 +45,7 @@ body {
     background-color: #EEE2DC;
 }
 #about_section{
+    width: 100%;
     height: 100vh;
 }
 nav {
@@ -55,22 +56,22 @@ nav {
     height: 100vh;
     background-color: #EDC7B7;
 }
-ul{
+.nav_list{
     list-style-type: none;
     margin: 0;
     padding: 10%;
 }
-li{
-    font-size: 40px;
+.nav_list_item{
+    font-size: 175%;
     font-style: normal;
     font-weight: 700;
     transform: rotate(270deg);
 }
-li:nth-child(1){
+.nav_list_item:nth-child(1){
     margin-top: 10vh;
 }
-li:not(:first-child){
-    margin-top: 32vh;
+.nav_list_item:not(:first-child){
+    margin-top: 34vh;
 }
 li a{
     display: block;
@@ -79,7 +80,7 @@ li a{
 }
 .social_media_logos{
     width: 100%;
-    margin: 6vh 14%;
+    margin: 7vh 14%;
 }
 #linkedin_logo{
     width: 20%;
@@ -96,13 +97,16 @@ li a{
     margin-left: 5%;
 }
 .heading_logo{
-    font-size: 35px;
+    font-size: 200%;
     font-weight: 800;
     font-style: italic;
-    color: #AC3B61;
     position: fixed;
     top: 2%;
     right: 6%;
+}
+.heading_logo a {
+    text-decoration: none;
+    color: #AC3B61;
 }
 .headshot_container{
     margin-top: 15%;
@@ -126,19 +130,19 @@ li a{
     float: left;
 }
 .section_header{
-    font-size: 60px;
+    font-size: 250%;
     font-weight: 800;
     font-style: italic;
     color: #AC3B61;
 }
 .section_subheader{
-    font-size: 40px;
+    font-size: 150%;
     font-weight: 700;
     font-style: italic;
     color: #123C69;
 }
 .section_paragraph{
-    font-size: 25px;
+    font-size: 130%;
     font-weight: 600;
     font-style: normal;
     color: #123C69;
@@ -156,4 +160,128 @@ li a{
     width: 15%;
     float: left;
     margin-left: 5%;
+}
+#experience_section{
+    width: 100%;
+    height: 115vh;
+    margin-top: 15%;
+}
+.screenshot_container{
+    margin-top: 5%;
+    margin-left: -5%;
+    width: 50%;
+    float: left;
+}
+.screenshot_container img{
+    width: 60%;
+    float: right;
+    border: 15px solid #123C69;
+    border-radius: 15px;
+    margin-bottom: 10%;
+}
+.section_deatils_text_experience{
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 50%;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #123C69;
+    font-size: 150%;
+    line-height: 1.2;
+}
+.section_heading{
+    font-size: 140%;
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+    color: #AC3B61;
+}
+.section_company_name{
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 100%;
+}
+#dominican_section{
+    margin-top: 35%;
+}
+#work_section{
+    width: 100%;
+    height: 120vh;
+    margin-top: 15%;
+}
+#work_section_heading{
+    font-size: 200%;
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+    color: #AC3B61;
+    margin-left: 45%;
+}
+.work_screenshot_container{
+    width: 50%;
+    margin: 2% auto;
+}
+.work_screenshot_container img{
+    width: 100%;
+    border: 15px solid #123C69;
+    border-radius: 15px;
+}
+.recent_work_section_description{
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #123C69;
+    font-size: 150%;
+    line-height: 1.2;
+    margin-bottom: 15%;
+}
+.recent_work_title{
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 95%;
+}
+.recent_work_details{
+    margin-top: 1%;
+}
+.recent_work_techonologies_header{
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 95%;
+    margin-top: 2%;
+}
+.recent_work_technologies{
+    width: 105%;
+    font-size: 85%;
+}
+.recent_work_item_col_one{
+    width: 35%;
+    float: left;
+}
+.recent_work_item_col_two{
+    width: 35%;
+    float: left;
+}
+.recent_wrok_item_col_three{
+    width: 30%;
+    float: left;
+}
+#footer_section{
+    width: 100%;
+    background-color: #EDC7B7;
+    height: 10vh;
+    margin-top: 15%;
+}
+#footer_text{
+    color: #123C69;
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 95%;
+    text-align: center;
+    padding-top: 3%
 }
